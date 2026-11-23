@@ -1,0 +1,30 @@
+**/bin/
+**/obj/
+**/Library/
+**/Temp/
+**/Logs/
+**/UserSettings/
+TestResults/
+.validation/
+ForceDimension-SDK-*.exe
+ForceDimension-install.log
+
+# Generated applications and Unity builds are published as release downloads.
+/Application/
+**/Builds/
+/Distribution/*/
+/Distribution/*.exe
+/Distribution/*.zip
+
+# Local IDE files and machine-specific settings.
+.vs/
+.idea/
+**/*.csproj.user
+**/*.suo
+/Unity/*/*.csproj
+/Unity/*/*.sln
+/Unity/*/*.slnx
+.env
+.env.*
+!.env.example
+

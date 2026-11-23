@@ -1,0 +1,20 @@
+{
+  "name": "com.falcon.haptics",
+  "version": "1.2.0-preview.4",
+  "displayName": "Novint Falcon",
+  "description": "Novint Falcon input, calibrated workspaces, bounded surface contact with dynamic friction, and hardware-free simulation. DHD requires Windows x64.",
+  "unity": "2021.3",
+  "dependencies": { "com.unity.modules.imgui": "1.0.0", "com.unity.modules.physics": "1.0.0" },
+  "samples": [
+    {
+      "displayName": "Falcon Monitor",
+      "description": "View position and buttons and try the haptic modes in Play Mode.",
+      "path": "Samples~/Falcon Monitor"
+    },
+    {
+      "displayName": "Surface Demo",
+      "description": "A simulated finite BoxCollider face with contact force controls. Open FalconSurfaceDemo.unity.",
+      "path": "Samples~/Surface Demo"
+    }
+  ]
+}

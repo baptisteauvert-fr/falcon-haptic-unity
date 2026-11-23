@@ -1,0 +1,6 @@
+{
+  "name": "Falcon.Haptics.Editor",
+  "references": ["Falcon.Haptics"],
+  "includePlatforms": ["Editor"],
+  "autoReferenced": true
+}
